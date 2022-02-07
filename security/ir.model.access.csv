@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+categoria_user,Usuario Categoria,model_libreria_categoria,libreria_user,1,0,0,0
+categoria_avanzado,Avanzado Categoria,model_libreria_categoria,libreria_avanzado,1,1,1,0
+categoria_manager,Manager Categoria,model_libreria_categoria,libreria_manager,1,1,1,1
+libro_user,Usuario Libro,model_libreria_libro,libreria_user,1,0,0,0
+libro_avanzado,Avanzado Libro,model_libreria_libro,libreria_avanzado,1,1,1,0
+libro_manager,Manager Libro,model_libreria_libro,libreria_manager,1,1,1,1
+cliente_user,Usuario Cliente,model_libreria_cliente,libreria_user,1,0,0,0
+cliente_avanzado,Avanzado Cliente,model_libreria_cliente,libreria_avanzado,1,1,1,0
+cliente_manager,Manager Cliente,model_libreria_cliente,libreria_manager,1,1,1,1

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="libreria_user" model="res.groups">
+            <field name="name">Libreria / User</field>
+        </record>
+        
+        <record id="libreria_avanzado" model="res.groups">
+            <field name="name">Libreria / Avanzado</field>
+        </record>
+        
+        <record id="libreria_manager" model="res.groups">
+            <field name="name">Libreria / Manager</field>
+        </record>
+    </data>
+</odoo>

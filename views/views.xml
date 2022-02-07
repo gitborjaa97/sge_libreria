@@ -1,0 +1,158 @@
+<odoo>
+  <data>
+
+    <record id="libreria_categoria_tree" model="ir.ui.view">
+      <field name="name">libreria.categoria.tree</field>
+      <field name="model" >libreria.categoria</field>
+      <field name="arch" type="xml">
+        <tree>
+            <field name="name"/>
+            <field name="description"/>
+        </tree>
+      </field> 
+    </record>
+
+    <record id="libreria_categoria_from" model="ir.ui.view">
+      <field name="name">libreria.categoria.form</field>
+      <field name="model" >libreria.categoria</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group  colspan="2" col="4">
+                <field name="name"/>
+                <field name="description"/> 
+                <field name="prueba" />                                         
+            </group>
+            <group string="Libros">
+                  <field name="libros_ids">
+                    <tree>
+                      <field name="name"/>
+                      <field name="precio"/>
+                      <field name="ejemplares"/>
+                    </tree>
+                  </field>
+            </group>
+          </sheet>
+        </form>
+      </field> 
+    </record>
+
+    <record id="libreria_libro_tree" model="ir.ui.view">
+      <field name="name">libreria.libro.tree</field>
+      <field name="model" >libreria.libro</field>
+      <field name="arch" type="xml">
+        <tree>
+            <field name="name"/>
+            <field name="precio"/>
+            <field name="ejemplares" />
+            <field name="fecha_compra" />
+            <field name="categoria_id" />
+        </tree>
+      </field> 
+    </record>
+
+    <record id="libreria_libro_search_view" model="ir.ui.view">
+      <field name="name">libreria.libro.search</field>
+      <field name="model" >libreria.libro</field>
+      <field name="arch" type="xml">
+        <search>
+            <field name="name" string="Titulo"/>
+            <field name="categoria_id" string="Categorias"/>
+            <filter name="baratos" domain="[('precio','&lt;=',5)]" string="Baratos"/>
+        </search>
+      </field> 
+    </record>
+
+    <record id="libreria_libro_from" model="ir.ui.view">
+      <field name="name">libreria.libro.form</field>
+      <field name="model" >libreria.libro</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group  colspan="2" col="4">
+              <field name="name"/>
+              <field name="precio"/>
+              <field name="ejemplares" />
+              <field name="fecha_compra" />
+              <field name="segmano" />    
+              <field name="estado" /> 
+              <field name="categoria_id" />   
+              <field name="importetotal" />
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="libreria_cliente_tree" model="ir.ui.view">
+      <field name="name">libreria.cliente.tree</field>
+      <field name="model" >libreria.cliente</field>
+      <field name="arch" type="xml">
+        <tree>
+            <field name="name"/>
+            <field name="activo"/>
+            <field name="country_id" />
+            <field name="libros_ids" />
+        </tree>
+      </field> 
+    </record>
+
+    <record id="libreria_cliente_from" model="ir.ui.view">
+      <field name="name">libreria.cliente.form</field>
+      <field name="model" >libreria.cliente</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group  colspan="2" col="2">
+                <field name="name"/>
+                <field name="activo"/>
+                <field name="country_id" />
+            </group>
+            <group>              
+                <field name="libros_ids" >
+                  <tree>
+                    <field name="name"/>
+                    <field name="categoria_id"/>
+                  </tree>
+                </field> 
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="libreria_libro_action_window" model="ir.actions.act_window">
+      <field name="name">LIBROS</field>
+      <field name="res_model">libreria.libro</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="libreria_categoria_action_window" model="ir.actions.act_window">
+      <field name="name">CATEGORIAS</field>
+      <field name="res_model">libreria.categoria</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="libreria_cliente_action_window" model="ir.actions.act_window">
+      <field name="name">CLIENTES</field>
+      <field name="res_model">libreria.cliente</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="libreria_menu_root" name="Libreria"/>
+
+    <menuitem id="libreria_submenu_libros"  name="Libros" parent="libreria_menu_root" 
+    sequence="1" action="libreria_libro_action_window"/>
+
+    <menuitem  id="libreria_submenu_categorias"  name="Submenu categorias" parent="libreria_menu_root"/>
+    
+    <menuitem
+      id="libreria_submenu_categorias_categorias" name="Categorias" parent="libreria_submenu_categorias"
+      action="libreria_categoria_action_window"/>
+
+    <menuitem
+      id="libreria_submenu_clientes" name="Clientes" parent="libreria_menu_root"
+      action="libreria_cliente_action_window"/>
+
+  </data>
+</odoo>
