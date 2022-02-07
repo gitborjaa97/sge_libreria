@@ -1,6 +1,6 @@
 <odoo>
   <data>
-
+  
     <record id="libreria_categoria_tree" model="ir.ui.view">
       <field name="name">libreria.categoria.tree</field>
       <field name="model" >libreria.categoria</field>
@@ -139,20 +139,21 @@
       <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem id="libreria_menu_root" name="Libreria"/>
+    <menuitem id="libreria_menu_root" name="Libreria" groups="libreria_user"/>
 
     <menuitem id="libreria_submenu_libros"  name="Libros" parent="libreria_menu_root" 
-    sequence="1" action="libreria_libro_action_window"/>
+    sequence="1" action="libreria_libro_action_window" groups="libreria_user"/>
 
-    <menuitem  id="libreria_submenu_categorias"  name="Submenu categorias" parent="libreria_menu_root"/>
+    <menuitem  id="libreria_submenu_categorias"  name="Submenu categorias" parent="libreria_menu_root"
+    groups="libreria_user"/>
     
     <menuitem
       id="libreria_submenu_categorias_categorias" name="Categorias" parent="libreria_submenu_categorias"
-      action="libreria_categoria_action_window"/>
+      action="libreria_categoria_action_window" groups="libreria_user"/>
 
     <menuitem
       id="libreria_submenu_clientes" name="Clientes" parent="libreria_menu_root"
-      action="libreria_cliente_action_window"/>
+      action="libreria_cliente_action_window" groups="libreria_user"/>
 
   </data>
 </odoo>

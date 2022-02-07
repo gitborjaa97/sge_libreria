@@ -1,0 +1,291 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* libreria
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20211022\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-07 09:20+0000\n"
+"PO-Revision-Date: 2022-02-07 09:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: libreria
+#: model_terms:ir.ui.view,arch_db:libreria.report_libro_view
+msgid "<strong>Categoria:</strong>"
+msgstr ""
+
+#. module: libreria
+#: model_terms:ir.ui.view,arch_db:libreria.report_libro_view
+msgid "<strong>Ejemplares:</strong>"
+msgstr ""
+
+#. module: libreria
+#: model_terms:ir.ui.view,arch_db:libreria.report_libro_view
+msgid "<strong>Precio:</strong>"
+msgstr ""
+
+#. module: libreria
+#: model_terms:ir.ui.view,arch_db:libreria.report_libro_view
+msgid "<strong>Total:</strong>"
+msgstr ""
+
+#. module: libreria
+#: model_terms:ir.ui.view,arch_db:libreria.libreria_libro_search_view
+msgid "Baratos"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields.selection,name:libreria.selection__libreria_libro__estado__0
+msgid "Bueno"
+msgstr ""
+
+#. module: libreria
+#: model:ir.actions.act_window,name:libreria.libreria_categoria_action_window
+msgid "CATEGORIAS"
+msgstr ""
+
+#. module: libreria
+#: model:ir.actions.act_window,name:libreria.libreria_cliente_action_window
+msgid "CLIENTES"
+msgstr ""
+
+#. module: libreria
+#: model:ir.ui.menu,name:libreria.libreria_submenu_categorias_categorias
+#: model_terms:ir.ui.view,arch_db:libreria.libreria_libro_search_view
+msgid "Categorias"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro__categoria_id
+msgid "Categoría"
+msgstr ""
+
+#. module: libreria
+#: model:ir.ui.menu,name:libreria.libreria_submenu_clientes
+msgid "Clientes"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model,name:libreria.model_libreria_cliente
+msgid "Clientes de mi libreria"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_categoria__create_uid
+#: model:ir.model.fields,field_description:libreria.field_libreria_cliente__create_uid
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_categoria__create_date
+#: model:ir.model.fields,field_description:libreria.field_libreria_cliente__create_date
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_categoria__description
+msgid "Descripción"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_categoria__display_name
+#: model:ir.model.fields,field_description:libreria.field_libreria_cliente__display_name
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro__ejemplares
+msgid "Ejemplares"
+msgstr ""
+
+#. module: libreria
+#: model:res.groups,comment:libreria.libreria_avanzado
+msgid "Empleado con permisos avanzados"
+msgstr ""
+
+#. module: libreria
+#: model:res.groups,comment:libreria.libreria_user
+msgid "Empleado con permisos básicos"
+msgstr ""
+
+#. module: libreria
+#: model:res.groups,comment:libreria.libreria_manager
+msgid "Empleado con permisos de supervisor"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro__estado
+msgid "Estado"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro__fecha_compra
+msgid "Fecha de compra"
+msgstr ""
+
+#. module: libreria
+#: model:ir.module.category,description:libreria.Libreria_id
+msgid "Gestion de una libreria"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_categoria__id
+#: model:ir.model.fields,field_description:libreria.field_libreria_cliente__id
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro__id
+msgid "ID"
+msgstr ""
+
+#. module: libreria
+#: model:ir.actions.report,name:libreria.libreria_report_libro
+msgid "Informe Libro"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,help:libreria.field_libreria_categoria__name
+msgid "Introduce el nombre de la categoria"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,help:libreria.field_libreria_cliente__name
+msgid "Introduce el nombre del cliente."
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,help:libreria.field_libreria_libro__name
+msgid "Introduce el título del libro"
+msgstr ""
+
+#. module: libreria
+#: model:ir.actions.act_window,name:libreria.libreria_libro_action_window
+msgid "LIBROS"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_categoria____last_update
+#: model:ir.model.fields,field_description:libreria.field_libreria_cliente____last_update
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_categoria__write_uid
+#: model:ir.model.fields,field_description:libreria.field_libreria_cliente__write_uid
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_categoria__write_date
+#: model:ir.model.fields,field_description:libreria.field_libreria_cliente__write_date
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: libreria
+#: model:ir.module.category,name:libreria.Libreria_id
+#: model:ir.ui.menu,name:libreria.libreria_menu_root
+msgid "Libreria"
+msgstr ""
+
+#. module: libreria
+#: model:res.groups,name:libreria.libreria_avanzado
+msgid "Libreria / Avanzado"
+msgstr ""
+
+#. module: libreria
+#: model:res.groups,name:libreria.libreria_manager
+msgid "Libreria / Manager"
+msgstr ""
+
+#. module: libreria
+#: model:res.groups,name:libreria.libreria_user
+msgid "Libreria / User"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_categoria__libros_ids
+#: model:ir.model.fields,field_description:libreria.field_libreria_cliente__libros_ids
+#: model:ir.ui.menu,name:libreria.libreria_submenu_libros
+#: model_terms:ir.ui.view,arch_db:libreria.libreria_categoria_from
+msgid "Libros"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields.selection,name:libreria.selection__libreria_libro__estado__2
+msgid "Malo"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_categoria__prueba
+msgid "Mi prueba"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_categoria__name
+#: model:ir.model.fields,field_description:libreria.field_libreria_cliente__name
+msgid "Nombre"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_cliente__country_id
+msgid "Pais"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro__precio
+msgid "Precio"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields.selection,name:libreria.selection__libreria_libro__estado__1
+msgid "Regular"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro__segmano
+msgid "Segunda mano"
+msgstr ""
+
+#. module: libreria
+#: model:ir.ui.menu,name:libreria.libreria_submenu_categorias
+msgid "Submenu categorias"
+msgstr ""
+
+#. module: libreria
+#: model_terms:ir.ui.view,arch_db:libreria.libreria_libro_search_view
+msgid "Titulo"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro__importetotal
+msgid "Total"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_libro__name
+msgid "Título"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model,name:libreria.model_libreria_categoria
+msgid "libreria.categoria"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model,name:libreria.model_libreria_libro
+msgid "libreria.libro"
+msgstr ""
+
+#. module: libreria
+#: model:ir.model.fields,field_description:libreria.field_libreria_cliente__activo
+msgid "¿Esta activo?"
+msgstr ""

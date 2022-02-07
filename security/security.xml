@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data noupdate="1">
+    <data noupdate="1">    
+        <record id="libreria_id" model="ir.module.category">
+            <field name="name">Libreria</field>
+            <field name="description">Gestion de una libreria</field>
+        </record>
+
         <record id="libreria_user" model="res.groups">
             <field name="name">Libreria / User</field>
+            <field name="comment">Empleado con permisos básicos</field>
+            <field name="category_id" ref="libreria_id"/>
+            <field name="users" eval="[(4,ref('base.group_user'))]"/>
         </record>
         
         <record id="libreria_avanzado" model="res.groups">
             <field name="name">Libreria / Avanzado</field>
+            <field name="comment">Empleado con permisos avanzados</field>
+            <field name="category_id" ref="libreria_id"/>
+            <field name="implied_ids" eval="[(4,ref('libreria_user'))]"/>
         </record>
         
         <record id="libreria_manager" model="res.groups">
             <field name="name">Libreria / Manager</field>
+            <field name="comment">Empleado con permisos de supervisor</field>
+            <field name="category_id" ref="libreria_id"/>
+            <field name="implied_ids" eval="[(4,ref('libreria_avanzado'))]"/>
+            <field name="users" eval="[(4,ref('base.user_root')),(4,ref('base.user_admin'))]"/>
         </record>
     </data>
 </odoo>
