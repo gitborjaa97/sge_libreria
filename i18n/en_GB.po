@@ -7,28 +7,30 @@ msgstr ""
 "Project-Id-Version: Odoo Server 14.0-20211022\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-10 12:56+0000\n"
-"PO-Revision-Date: 2022-02-10 12:56+0000\n"
+"PO-Revision-Date: 2022-02-10 14:07+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #. module: libreria
 #: model_terms:ir.ui.view,arch_db:libreria.report_libro_view
 msgid "<strong>Categoria:</strong>"
-msgstr ""
+msgstr "<strong>Category:</strong>"
 
 #. module: libreria
 #: model_terms:ir.ui.view,arch_db:libreria.report_libro_view
 msgid "<strong>Ejemplares:</strong>"
-msgstr ""
+msgstr "<strong>Stock:</strong>"
 
 #. module: libreria
 #: model_terms:ir.ui.view,arch_db:libreria.report_libro_view
 msgid "<strong>Precio:</strong>"
-msgstr ""
+msgstr "<strong>Price:</strong>"
 
 #. module: libreria
 #: model_terms:ir.ui.view,arch_db:libreria.report_libro_view
@@ -38,43 +40,43 @@ msgstr ""
 #. module: libreria
 #: model_terms:ir.ui.view,arch_db:libreria.libreria_libro_search_view
 msgid "Baratos"
-msgstr ""
+msgstr "Cheap"
 
 #. module: libreria
 #: model:ir.model.fields.selection,name:libreria.selection__libreria_libro__estado__0
 msgid "Bueno"
-msgstr ""
+msgstr "Good"
 
 #. module: libreria
 #: model:ir.actions.act_window,name:libreria.libreria_categoria_action_window
 msgid "CATEGORIAS"
-msgstr ""
+msgstr "CATEGOIES"
 
 #. module: libreria
 #: model:ir.actions.act_window,name:libreria.libreria_cliente_action_window
 msgid "CLIENTES"
-msgstr ""
+msgstr "CUSTOMERS"
 
 #. module: libreria
 #: model:ir.ui.menu,name:libreria.libreria_submenu_categorias_categorias
 #: model_terms:ir.ui.view,arch_db:libreria.libreria_libro_search_view
 msgid "Categorias"
-msgstr ""
+msgstr "Categories"
 
 #. module: libreria
 #: model:ir.model.fields,field_description:libreria.field_libreria_libro__categoria_id
 msgid "Categoría"
-msgstr ""
+msgstr "Category"
 
 #. module: libreria
 #: model:ir.ui.menu,name:libreria.libreria_submenu_clientes
 msgid "Clientes"
-msgstr ""
+msgstr "Clients"
 
 #. module: libreria
 #: model:ir.model,name:libreria.model_libreria_cliente
 msgid "Clientes de mi libreria"
-msgstr ""
+msgstr "My store clients"
 
 #. module: libreria
 #: model:ir.model.fields,field_description:libreria.field_libreria_categoria__create_uid
@@ -105,37 +107,37 @@ msgstr ""
 #. module: libreria
 #: model:ir.model.fields,field_description:libreria.field_libreria_libro__ejemplares
 msgid "Ejemplares"
-msgstr ""
+msgstr "Number of Books"
 
 #. module: libreria
 #: model:res.groups,comment:libreria.libreria_avanzado
 msgid "Empleado con permisos avanzados"
-msgstr ""
+msgstr "Employee with advanced permisions"
 
 #. module: libreria
 #: model:res.groups,comment:libreria.libreria_user
 msgid "Empleado con permisos básicos"
-msgstr ""
+msgstr "Employee with basic permisions"
 
 #. module: libreria
 #: model:res.groups,comment:libreria.libreria_manager
 msgid "Empleado con permisos de supervisor"
-msgstr ""
+msgstr "Employee with supervisor permisions"
 
 #. module: libreria
 #: model:ir.model.fields,field_description:libreria.field_libreria_libro__estado
 msgid "Estado"
-msgstr ""
+msgstr "State"
 
 #. module: libreria
 #: model:ir.model.fields,field_description:libreria.field_libreria_libro__fecha_compra
 msgid "Fecha de compra"
-msgstr ""
+msgstr "Adquisition Date"
 
 #. module: libreria
 #: model:ir.module.category,description:libreria.Libreria_id
 msgid "Gestion de una libreria"
-msgstr ""
+msgstr "Book store management"
 
 #. module: libreria
 #: model:ir.model.fields,field_description:libreria.field_libreria_categoria__id
@@ -147,27 +149,27 @@ msgstr ""
 #. module: libreria
 #: model:ir.actions.report,name:libreria.libreria_report_libro
 msgid "Informe Libro"
-msgstr ""
+msgstr "Book report"
 
 #. module: libreria
 #: model:ir.model.fields,help:libreria.field_libreria_categoria__name
 msgid "Introduce el nombre de la categoria"
-msgstr ""
+msgstr "Type category name"
 
 #. module: libreria
 #: model:ir.model.fields,help:libreria.field_libreria_cliente__name
 msgid "Introduce el nombre del cliente."
-msgstr ""
+msgstr "Type client name"
 
 #. module: libreria
 #: model:ir.model.fields,help:libreria.field_libreria_libro__name
 msgid "Introduce el título del libro"
-msgstr ""
+msgstr "Type book tittle"
 
 #. module: libreria
 #: model:ir.actions.act_window,name:libreria.libreria_libro_action_window
 msgid "LIBROS"
-msgstr ""
+msgstr "BOOKS"
 
 #. module: libreria
 #: model:ir.model.fields,field_description:libreria.field_libreria_categoria____last_update
@@ -194,17 +196,17 @@ msgstr ""
 #: model:ir.module.category,name:libreria.Libreria_id
 #: model:ir.ui.menu,name:libreria.libreria_menu_root
 msgid "Libreria"
-msgstr ""
+msgstr "Book store"
 
 #. module: libreria
 #: model:res.groups,name:libreria.libreria_avanzado
 msgid "Libreria / Avanzado"
-msgstr ""
+msgstr "Store / Advanced"
 
 #. module: libreria
 #: model:res.groups,name:libreria.libreria_manager
 msgid "Libreria / Manager"
-msgstr ""
+msgstr "Store / Manager"
 
 #. module: libreria
 #: model:res.groups,name:libreria.libreria_user
@@ -217,12 +219,12 @@ msgstr ""
 #: model:ir.ui.menu,name:libreria.libreria_submenu_libros
 #: model_terms:ir.ui.view,arch_db:libreria.libreria_categoria_from
 msgid "Libros"
-msgstr ""
+msgstr "BOOKS"
 
 #. module: libreria
 #: model:ir.model.fields.selection,name:libreria.selection__libreria_libro__estado__2
 msgid "Malo"
-msgstr ""
+msgstr "Bad"
 
 #. module: libreria
 #: model:ir.model.fields,field_description:libreria.field_libreria_categoria__prueba
@@ -233,17 +235,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:libreria.field_libreria_categoria__name
 #: model:ir.model.fields,field_description:libreria.field_libreria_cliente__name
 msgid "Nombre"
-msgstr ""
+msgstr "Name"
 
 #. module: libreria
 #: model:ir.model.fields,field_description:libreria.field_libreria_cliente__country_id
 msgid "Pais"
-msgstr ""
+msgstr "Country"
 
 #. module: libreria
 #: model:ir.model.fields,field_description:libreria.field_libreria_libro__precio
 msgid "Precio"
-msgstr ""
+msgstr "Price"
 
 #. module: libreria
 #: model:ir.model.fields.selection,name:libreria.selection__libreria_libro__estado__1
@@ -253,17 +255,17 @@ msgstr ""
 #. module: libreria
 #: model:ir.model.fields,field_description:libreria.field_libreria_libro__segmano
 msgid "Segunda mano"
-msgstr ""
+msgstr "Used"
 
 #. module: libreria
 #: model:ir.ui.menu,name:libreria.libreria_submenu_categorias
 msgid "Submenu categorias"
-msgstr ""
+msgstr "Categories submenu"
 
 #. module: libreria
 #: model_terms:ir.ui.view,arch_db:libreria.libreria_libro_search_view
 msgid "Titulo"
-msgstr ""
+msgstr "Tittle"
 
 #. module: libreria
 #: model:ir.model.fields,field_description:libreria.field_libreria_libro__importetotal
@@ -273,7 +275,7 @@ msgstr ""
 #. module: libreria
 #: model:ir.model.fields,field_description:libreria.field_libreria_libro__name
 msgid "Título"
-msgstr ""
+msgstr "Tittle"
 
 #. module: libreria
 #: model:ir.model,name:libreria.model_libreria_categoria
@@ -288,4 +290,4 @@ msgstr ""
 #. module: libreria
 #: model:ir.model.fields,field_description:libreria.field_libreria_cliente__activo
 msgid "¿Esta activo?"
-msgstr ""
+msgstr "Active?"
